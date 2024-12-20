@@ -11,7 +11,7 @@ s.bind((host,port))
 s.listen(5)
 while True:
     c,addr = s.accept()
-    print ('链接地址:' , addr)
-    c.send('hello！')
+    print ('链接地址：' , addr)
+    c.send('hello')
     c.close()
     
